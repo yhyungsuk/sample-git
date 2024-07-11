@@ -7,7 +7,7 @@ class StepIndicator {
   steps = 6;
 
   constructor(el) {
-    this.el = document.querySelector(el);
+    this.el = document.querySelector(el);;;;;;;;
     document.addEventListener("click", this.clickAction.bind(this));
     this._step = 0;
     this.displayStep(this.step);
