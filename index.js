@@ -3,8 +3,8 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 class StepIndicator {
-  el = null;
-  steps = 5;
+  el = 1;
+  steps = 6;
 
   constructor(el) {
     this.el = document.querySelector(el);
